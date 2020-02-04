@@ -1,0 +1,79 @@
+<!-- Mora Vela Noel Amilcar
+    Programacion para Internet
+    Clase de Martes y Jueves de 15 a 17 pm-->
+
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Contacto</title>
+        <meta name="description" content="Esta es mi area de Contacto" />
+        <meta name="author" content="Mora Vela Amilcar Mora" />
+        <meta name="keywords" content="Mi Contacto, mi area de contacto, mi primer trabajo web" /> 
+    </head>
+    <body bgcolor="AFEEEE">
+        <main>
+            <header>
+                <h1 align="center">Mi Contacto</h1>
+            </header>
+            <ol>
+                <a href="file:///C:/Users/noela/Desktop/Mi%20Pagina/Index.html">
+                <lu>Biografia</lu></a>
+            </ol>
+            <form action="procesa.html" method="POST">
+                Nombre:<br>
+                <input type="text" name="Nombre"><br>
+                Apellido Paterno:<br>
+                <input type="text" name="Apellido Paterno"><br>
+                Apellido Materno:<br>
+                <input type="text" name="Apellido Materno"><br><br>
+                <label for="nacimiento">Fecha de nacimiento</label><br>
+                <input type="date" name="nacimiento"><br> 
+                <br>
+            
+            
+                <input type="radio" name="gender" value="Masculino" checked> Masculino<br>
+                <input type="radio" name="gender" value="Femenino" checked> Femenino<br>
+                <input type="radio" name="gender" value="Otro" checked> Otro<br>
+                <br>
+        
+        
+                Correo Electronico: <input type="email" name="emailaddress"><br>
+                <br>
+                Ingresar una contraseña:<input type="password" name="pwd"><br>
+                <br>
+                Ingrese un Numero de contacto:<input type="number" name="tentacles"><br>
+                <br>
+    
+                <p>Medio de transportarte de uso cotidiano:</p><br>
+                <input type="checkbox" name="vehicle1" value="bicicleta"> Uso bicicleta<br>
+                <input type="checkbox" name="vehicle2" value="carro"> Uso carro<br>
+                <input type="checkbox" name="vehicle3" value="camion"> Uso camion<br>
+                <input type="checkbox" name="vehicle4" value="otro"> Otro medio de transportarte<br>
+                <br>
+            
+                <p>Selecciona la carrera a la que perteneces:</p>
+        
+                <select name="Carreras">
+                    <option value="Informatica">Informatica</option>
+                    <option value="Computacion">Computacion</option>
+                    <option value="Comunicaciones y Electronica">Comunicaciones y Electronica</option>
+                    <option value="Biomedica">Biomedica</option>
+                    <option value="Fotonica">Fotonica</option>
+                    <option value="Robotica">Robotica</option>
+                </select>
+        
+                <br><br>
+        
+                <p>Opinion para mejorar:</p>
+                <p><textarea name="mensaje" placeholder="Comparte tu opinion..." rows="20" cols="70"></textarea></p>
+                <input type="Submit" value="Enviar Formulario">
+    
+
+                <br>
+                <button type="button" onclick="alert('Boton de prueba, no hace nada')">Click Aqui</button>
+            </form>
+        </main>
+    </body> 
+</html>
